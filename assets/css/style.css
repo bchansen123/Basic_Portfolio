@@ -201,13 +201,19 @@ form {
 }
 
 .box {
+    float: left;
+    clear: both;
     position: relative;
-    margin: 0px 20px 0px 20px;
-    top: 225px;
-    width: 30%;
+    margin:2%;
+    top: 60%;
+    width: 200px;
     height: 40px;
     background-color: #0da1a1;
-    opacity: 0.76;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    z-index: 2;
 }
 
 .titles {
@@ -225,6 +231,17 @@ form {
     clear: both;
     position: relative;
     width:90%;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bounding_title {
+    clear: both;
+    position: absolute;
+    width:100%;
     height: 100%;
     margin: 0 auto;
     padding-bottom: 20px;
