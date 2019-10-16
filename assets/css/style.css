@@ -111,6 +111,7 @@ hr {
     border-top-color: #0da1a1;
     border-top-width: 10px;
     border-top-style: solid;
+    z-index: 99;
 
 }
 
@@ -196,17 +197,18 @@ form {
     float: left;
     margin: 2% 2% 2% 2%;
     object-fit: cover;
-    width: 200px;
-    height: 300px;
+    flex: 1;
+    width: 30%;
+    height: 200px;
 }
 
 .box {
     float: left;
     clear: both;
     position: relative;
-    margin:2%;
-    top: 60%;
-    width: 200px;
+    padding-top: 10px;
+    top: 50%;
+    width: 28.3%;
     height: 40px;
     background-color: #0da1a1;
     font-family: Arial, Helvetica, sans-serif;
@@ -241,9 +243,9 @@ form {
 #bounding_title {
     clear: both;
     position: absolute;
-    width:100%;
+    margin: 0;
+    width:106%;
     height: 100%;
-    margin: 0 auto;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
