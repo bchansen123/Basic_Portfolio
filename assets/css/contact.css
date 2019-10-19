@@ -1,0 +1,15 @@
+#form_input {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+::placeholder {
+    color: #AAAAAA;
+}
+
+form {
+    height: inherit;
+}
+

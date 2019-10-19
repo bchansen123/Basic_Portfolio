@@ -1,0 +1,58 @@
+.img-grid {
+    float: left;
+    margin: 2% 2% 2% 2%;
+    object-fit: cover;
+    flex: 1;
+    width: 30%;
+    height: 200px;
+}
+
+#bounding {
+    clear: both;
+    position: relative;
+    width:90%;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bounding_title {
+    clear: both;
+    position: absolute;
+    margin: 0;
+    width:106%;
+    height: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box {
+    float: left;
+    clear: both;
+    position: relative;
+    padding-top: 10px;
+    top: 50%;
+    width: 28.3%;
+    height: 40px;
+    background-color: #0da1a1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.titles {
+    position: relative;
+    bottom: 70px;
+    margin: 0px 20px 0px 20px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
